@@ -1,0 +1,18 @@
+.h2Patente{
+    text-align: center;
+}
+.formPatente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.labelPatente{
+    margin: 5px;
+}
+.inputPatente{
+    width: 20px;
+}
+.submitPatente{
+    margin: 10px;
+}

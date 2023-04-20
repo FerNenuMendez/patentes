@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <h1 class="h2Patente">Detector de Nacionalidad de Patentes</h1>
+    </header>
+    <main>
+        <h2 class="h2Patente">Ingrese la patente del vehiculo que quiera identificar:</h2>
+        <form class="formPatente">
+            <label class="labelPatente" for="car1">Car 1:</label class="labelPatente">
+            <input class="inputPatente" id="car1" name="car1" maxlength="1" pattern="[A-Za-z0-9]{1}" required>
+            <label class="labelPatente" for="car2">Car 2:</label class="labelPatente">
+            <input class="inputPatente" id="car2" name="car2" maxlength="1" pattern="[A-Za-z0-9]{1}" required>
+            <label class="labelPatente" for="car3">Car 3:</label class="labelPatente">
+            <input class="inputPatente" id="car3" name="car3" maxlength="1" pattern="[A-Za-z0-9]{1}" required>
+            <label class="labelPatente" for="car4">Car 4:</label class="labelPatente">
+            <input class="inputPatente" id="car4" name="car4" maxlength="1" pattern="[A-Za-z0-9]{1}" required>
+            <label class="labelPatente" for="car5">Car 5:</label class="labelPatente">
+            <input class="inputPatente" id="car5" name="car5" maxlength="1" pattern="[A-Za-z0-9]{1}" required>
+            <label class="labelPatente" for="car6">Car 6:</label class="labelPatente">
+            <input class="inputPatente" id="car6" name="car6" maxlength="1" pattern="[A-Za-z0-9]{1}" required>
+            <label class="labelPatente" for="car7">Car 7:</label class="labelPatente">
+            <input class="inputPatente" id="car7" name="car7" maxlength="1" pattern="[A-Za-z0-9]{1}" required>
+            
+            <input class="submitPatente" type="submit" value="Enviar">
+        </form>
+        <div class="respuestaPatente">
+            <h2 class="h2Patente">La patente es:</h2>
+            <h3 id="respuesta"></h3>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="index.js"></script>
+</body>
+</html>
