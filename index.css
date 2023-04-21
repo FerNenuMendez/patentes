@@ -1,18 +1,66 @@
-.h2Patente{
-    text-align: center;
+.h2Patente {
+  text-align: center;
 }
-.formPatente{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.formPatente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.labelPatente{
-    margin: 5px;
+.labelPatente {
+  margin: 5px;
 }
-.inputPatente{
-    width: 20px;
+.inputPatente {
+  width: 20px;
 }
-.submitPatente{
-    margin: 10px;
+.submitPatente {
+  margin: 10px;
+}
+.divpatente {
+  margin: 2rem;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 10px solid black;
+  border-radius: 15px;
+  height: 15rem;
+}
+.div1 {
+  /* azul */
+  grid-area: 1 / 1 / 2 / 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003488;
+}
+.div1p {
+  color: white;
+}
+.div2 {
+  /* bandera */
+  grid-area: 1 / 5 / 2 / 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003488;
+  padding: 5px;
+}
+.div2__img {
+  width: 8rem;
+  border: 3px solid white;
+}
+.div3 {
+  /* letras */
+  grid-area: 2 / 1 / 5 / 6;
+}
+.div4 {
+  /* BR */
+  grid-area: 5 / 1 / 6 / 2;
+}
+.div5 {
+  /* blanco */
+  grid-area: 5 / 2 / 6 / 6;
 }
