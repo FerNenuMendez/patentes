@@ -1,18 +1,18 @@
 const paises = [
     {
-        nombre: "Republica Argentina",
+        nombre: "REPUBLICA ARGENTINA",
         bandera:"banderas/barg.png",
     },
     {
-        nombre: "Brasil",
+        nombre: "BRASIL",
         bandera:"banderas/bbra.png",
     },
     {
-        nombre: "Uruguay",
+        nombre: "URUGUAY",
         bandera:"banderas/buru.png",
     },
     {
-        nombre: "Paraguay",
+        nombre: "PARAGUAY",
         bandera:"banderas/bpar.png",
     },
 ]
@@ -27,13 +27,13 @@ const buttom = document.getElementById('btnSubmit')
 
 const descubrirPatente =()=>{
     if(!isNaN(char3.value)){
-        return 'Argentina'
+        return 'REPUBLICA ARGENTINA'
     } else if (isNaN(char4.value)){
-        return 'Paraguay'
+        return 'PARAGUAY'
     } else if (isNaN(char5.value)){
-        return 'Brasil'
+        return 'BRASIL'
     } else if (!isNaN(char5.value)){
-        return 'Uruguay'
+        return 'URUGUAY'
     }
 }
 const armarPatente=(pais)=>{
