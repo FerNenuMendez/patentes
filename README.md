@@ -4,4 +4,4 @@ Ingresando los 7 digitos de la patente se podra determinar la nacionalidad de la
 
 En el futuro me gustaria hacer el reconocimiento por QR o Codigo de Barras de la documentacion.
 
-
+https://fernenumendez.github.io/patentes/
